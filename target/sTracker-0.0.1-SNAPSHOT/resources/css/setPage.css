@@ -1,0 +1,81 @@
+button, body, input {
+	font-size: 20px;
+}
+
+table button, table input {
+	width: 5vw;
+	height: 5vh;
+}
+
+button {
+	height: 5vh;
+	border-color: transparent;
+	background-color: #b9c2c8;
+}
+
+.bigbutton {
+	width: 15vw;
+}
+
+input:disabled {
+    background: transparent;
+    width: 100%;
+    text-align: left;
+}
+
+.largeInput {
+    width: 30vw;
+    height: 5vh;
+    font-size: 20px;
+    background-color: #bcc3c8;
+    padding: 0px;
+    border: 1px;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: aliceblue;
+}
+.setButton {
+    width: 63px;
+    height: 27px;
+    font-size: 20px;
+    background-color: #bcc3c8;
+    padding: 0px;
+    border: 1px;
+    border-style: solid;
+    border-radius: 3px;
+    border-color: aliceblue;
+    text-align: center;
+    line-height: 26px;
+}
+
+.varSize {
+	clear: both;
+}
+
+.setInput {
+	height: 38px;
+	padding-top: 0;
+	padding-bottom: 0;
+	border: 0;
+	border-radius: 5px;
+}
+
+input {
+	text-align: center;
+	border-color: transparent;
+}
+.varSize {
+	clear:both;
+}
+@media only screen and (max-width: 800px) {
+		.container {
+		width: 100%;
+		font-size:4vw
+	}
+	.varSize{
+	width: 100%;
+	}
+
+	button, table, input {
+    font-size: 5vw;
+}

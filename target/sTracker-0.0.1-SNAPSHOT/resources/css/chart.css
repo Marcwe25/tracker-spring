@@ -1,0 +1,82 @@
+#chart {
+    margin: 1em;
+    width: 90%;
+    height: 400px;
+    clear: both;
+}
+ 
+#chartError {
+    margin: 1em;
+    border-style: solid;
+    border-width: medium;
+    border-color: black;
+    background-color: lightpink;
+    font-weight: bold;
+    padding: 0.5em;
+    display: none;
+}
+
+.varSize {
+	clear: both;
+}
+
+.jqplot-title{
+		font-size: 10px;
+	
+}
+
+table{
+	width:90%;
+}
+
+td:first-child {
+	width:200px
+}
+
+input[type=date]{
+	width:140px;
+}
+
+.setButton {
+    width: 63px;
+    height: 27px;
+    font-size: 20px;
+    background-color: #bcc3c8;
+    padding: 0px;
+    border: 1px;
+    border-style: solid;
+    border-radius: 3px;
+    border-color: aliceblue;
+    text-align: center;
+    line-height: 26px;
+    margin-top: 10px;
+}
+.setButton:hover {
+	background-color: #e6e6e6;
+	border-color:#7a7a7a;
+}
+
+@media only screen and (max-width: 800px) and (min-width: 700px) {
+	label {
+		font-size: 30px;
+	}
+	td:first-child {
+	width:30%
+}
+
+/* .jqplot-target	Styles for the plot target div.  These will be cascaded down to all plot elements according to css rules. */
+/* .jqplot-axis	Styles for all axes */
+/* .jqplot-xaxis	Styles applied to the primary x axis only. */
+/* .jqplot-yaxis	Styles applied to the primary y axis only. */
+/* .jqplot-x2axis, .jqplot-x3axis, ...	Styles applied to the 2nd, 3rd, etc. x axis only. */
+/* .jqplot-y2axis, .jqplot-y3axis, ...	Styles applied to the 2nd, 3rd, etc.y axis only. */
+/* .jqplot-axis-tick	Styles applied to all axis ticks */
+/* .jqplot-xaxis-tick	Styles applied to primary x axis ticks only. */
+/* .jqplot-x2axis-tick	Styles applied to secondary x axis ticks only. */
+/* .jqplot-yaxis-tick	Styles applied to primary y axis ticks only. */
+/* .jqplot-y2axis-tick	Styles applied to secondary y axis ticks only. */
+/* table.jqplot-table-legend	Styles applied to the legend box table. */
+/* .jqplot-title	Styles applied to the title. */
+/* .jqplot-cursor-tooltip	Styles applied to the cursor tooltip */
+/* .jqplot-highlighter-tooltip	Styles applied to the highlighter tooltip. */
+/* div.jqplot-table-legend-swatch	the div element used for the colored swatch on the legend. */

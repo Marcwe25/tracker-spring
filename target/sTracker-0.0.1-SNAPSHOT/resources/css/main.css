@@ -1,0 +1,235 @@
+td, th {
+	padding: 10px;
+}
+
+.topContainer{
+	TEXT-ALIGN: center;
+    margin-bottom: 5px;
+    clear: both
+}
+
+body{
+	background-color: #e4e4e4;
+    font-family: Arial, sans-serif;
+}
+
+thead, .back {
+	text-align: center;
+	background-color: #778a97;
+	color: aliceblue;
+	border-radius: 10px;
+	padding-bottom: 2px;
+	margin-bottom: 7px;
+	
+}
+
+thead{
+	padding-top: 2px;
+	margin-top: 5px;
+	
+}
+
+
+.back{
+	padding-top: 2px;
+	margin-top: 5px;
+	
+}
+
+
+
+td {
+/* 	text-align: left; */
+	vertical-align: top;
+	border-width:1px;
+	border-style:solid;
+	border-color:transparent;
+}
+
+a,setButton {
+	color: #2b5f82;
+	text-decoration: none;
+	border-radius: 8px;
+	padding: 4px;
+	padding-left: 8px;
+	padding-right: 8px;
+	white-space: nowrap;
+}
+
+.errorClass {
+	color: red;
+	background-color: #e4e4e4;
+}
+
+label{
+	cursor: pointer;
+}
+
+.update, .dlete {
+	background-repeat: no-repeat;
+	background-size: 60%;
+	background-position: center;
+	cursor: pointer;
+}
+
+.update {
+	background-image: url(/sTracker/resources/image/new.png);
+}
+
+.dlete {
+	background-image: url(/sTracker/resources/image/cross.png);
+}
+
+.update:hover, .dlete:hover, a:hover, label:hover, .niceButton:hover {
+	background-color: #d7dbdf;
+	border:black;
+	border-style:solid;
+	border-width:1px;
+
+}
+
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+.tableWithHover tbody tr:hover {
+	background-color: #d7dbdf;
+}
+
+.container {
+	margin: auto;
+	width: 90%;
+}
+
+.smallerContainer{
+	margin: auto;
+	width: 60%;
+}
+.right_col {
+	float:right;
+	padding: 20px 0;
+}
+.left_col {
+	float:left;
+	padding: 20px 0;
+}
+.left_col p {
+	margin: 0;		
+}		
+
+@media only screen and (max-width: 800px) {
+		.container {
+		width: 100% !important;
+		font-size:4vw
+	}
+	.varSize{
+	width: 100%;
+	}
+	p.welcome, .logout {
+		font-size:30px !important;
+	}
+	.fixWindow {
+	    overflow-x: scroll;
+	}
+	
+	.update, .dlete {
+		width:6%;	
+	}
+	.myY, .myN {
+		padding: 2vh;
+	}
+	select {
+		font-size: 5vw;
+	}
+	.myButton {
+		font-size: 18px;
+		width: auto;
+	}
+
+}
+
+@media only screen and (max-width: 800px) and (min-width: 700px) {
+	.myButton {
+		font-size: 40px;
+	}
+	
+}
+
+.logout {
+	border: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;	
+    font-size:15px;f
+}
+
+table {
+	margin:auto;
+}
+
+.color1{
+	background-color: #778a9738 !important;
+}
+
+.color1Hov label:hover {
+    background: none;
+    border: none;
+    color: royalblue;
+}
+
+.myY{
+	background-image: url(/sTracker/resources/image/checkmark.png);
+	background-color: #f2f2f2;
+	color: transparent;
+	width: 60%;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.myN{
+	background-image: url(/sTracker/resources/image/cross.png);
+	background-color: #778a97;
+	width: 20%;
+	color: transparent;
+}
+.myButton{
+    background-position: center;
+    background-size: 3vh;
+    background-repeat: no-repeat;
+    height: 38px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.myButton:hover{
+		background-color: #2e719f;
+		
+}
+
+.welcome{
+	border: none;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 4px;
+	margin-top: 0;
+	margin-bottom: 0;
+	height: 15px;
+	font-size: 15px !important;
+	display: inline-block;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 10vh;
+    width: 100%;
+    text-align: center;
+    color: #c6c6c6;
+    background-color: #778a97;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+\\

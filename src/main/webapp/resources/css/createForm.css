@@ -1,0 +1,40 @@
+td{
+    padding: 2vh;
+    border-radius: 3px;
+}
+button,table,input{
+font-size: 15px;
+
+}
+button {
+width: 18vw;
+}
+button{
+    height: 11vh;
+}
+.bigbutton{
+width: 11vw;
+}
+.varSize {
+	clear:both;
+}
+table tr td:nth-child(3) {
+    background: #e4e4e4 !important;
+}
+
+
+@media only screen and (max-width: 800px) {
+		.container {
+		width: 100%;
+		font-size:4vw
+	}
+	.varSize{
+	width: 100%;
+	}
+
+	button, table, input {
+    font-size: 5vw;
+}
+
+
+\\

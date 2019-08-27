@@ -1,0 +1,54 @@
+javax.validation.constraints.AssertFalse.message     = חייב להיות שלילי
+javax.validation.constraints.AssertTrue.message      = חייב להיות חיובי
+javax.validation.constraints.DecimalMax.message      = ${inclusive == true ? 'or equal to ' : ''}{value} חייב להיות פחות מ 
+javax.validation.constraints.DecimalMin.message      = ${inclusive == true ? 'or equal to ' : ''}{value} חייב להיות גדול מ 
+javax.validation.constraints.Digits.message          = ערך מספרי מחוץ לתחום (<{integer} digits>.<{fraction} digits> expected)
+javax.validation.constraints.Email.message           = חייבת להיות כתובת דוא"ל מעוצבת
+javax.validation.constraints.Future.message          = חייב להיות תאריך עתידי
+javax.validation.constraints.FutureOrPresent.message = חייב להיות תאריך בהווה או בעתיד
+javax.validation.constraints.Max.message             = {value}חייב להיות פחות או שווה ל
+javax.validation.constraints.Min.message             = {value} חייב להיות גדול או שווה ל 
+javax.validation.constraints.Negative.message        = חייב להיות פחות מ 0
+javax.validation.constraints.NegativeOrZero.message  = חייב להיות פחות או שווה ל 0
+javax.validation.constraints.NotBlank.message        = \u05D0\u05E1\u05D5\u05E8 \u05DC\u05D4\u05D9\u05D5\u05EA \u05E8\u05D9\u05E7
+javax.validation.constraints.NotEmpty.message        = \u05D0\u05E1\u05D5\u05E8 \u05DC\u05D4\u05D9\u05D5\u05EA \u05E8\u05D9\u05E7
+javax.validation.constraints.NotNull.message         = \u05D0\u05E1\u05D5\u05E8 \u05DC\u05D4\u05D9\u05D5\u05EA \u05E8\u05D9\u05E7
+javax.validation.constraints.Null.message            = חייב להיות בטל
+javax.validation.constraints.Past.message            = חייב להיות תאריך עבר
+javax.validation.constraints.PastOrPresent.message   = חייב להיות תאריך בעבר או בהווה
+javax.validation.constraints.Pattern.message         = "{regexp}" חייב להתאים
+javax.validation.constraints.Positive.message        = חייב להיות גדול מ 0
+javax.validation.constraints.PositiveOrZero.message  = חייב להיות גדול או שווה ל 0
+javax.validation.constraints.Size.message            = {max}ו {min} הגודל חייב להיות בין
+
+org.hibernate.validator.constraints.CreditCardNumber.message        = מספר כרטיס אשראי לא חוקי
+org.hibernate.validator.constraints.Currency.message                = ({value}מטבע לא חוקי (חייב להיות אחד מ
+org.hibernate.validator.constraints.EAN.message                     = לא חוקי {type} ברקוד 
+org.hibernate.validator.constraints.Email.message                   = לא כתובת דוא"ל מעוצבת
+org.hibernate.validator.constraints.ISBN.message                    = לא חוקי ISBN
+org.hibernate.validator.constraints.Length.message                  = {max}ו {min} אורך חייב להיות בין
+org.hibernate.validator.constraints.CodePointLength.message         = {max}ו {min} אורך חייב להיות בין
+org.hibernate.validator.constraints.LuhnCheck.message               = ספרת הסימון עבור $ {validatedValue} אינה תקפה, בדיקת Luhn Modulo 10 בדיקה נכשלה
+org.hibernate.validator.constraints.Mod10Check.message              = ספרת הסימון עבור $ {validatedValue} אינה תקפה, בדיקת מודולו 10 בדיקה נכשלה
+org.hibernate.validator.constraints.Mod11Check.message              = ספרת הסימון עבור $ {validatedValue} אינה תקפה, בדיקת מודולו 11 בדיקה נכשלה
+org.hibernate.validator.constraints.ModCheck.message                = ספרת הסימון $ {validatedValue} אינה חוקית, $ {modType} בדיקת סיכום נכשלה
+org.hibernate.validator.constraints.NotBlank.message                = לא יחול ליות ריק
+org.hibernate.validator.constraints.NotEmpty.message                = לא יחול ליות ריק
+org.hibernate.validator.constraints.ParametersScriptAssert.message  =  ביטוי סקריפט "{script}" לא העריך נכון
+org.hibernate.validator.constraints.Range.message                   = {max}ו {min} חייב להיות בין
+org.hibernate.validator.constraints.SafeHtml.message                = לא בטוח HTML עשוי להיות תוכן HTML 
+org.hibernate.validator.constraints.ScriptAssert.message            = ביטוי סקריפט "{script}" לא העריך נכון
+org.hibernate.validator.constraints.UniqueElements.message          = חייב להכיל רק אלמנטים ייחודיים
+org.hibernate.validator.constraints.URL.message                     = חייבת להיות כתובת URL חוקית
+
+
+org.hibernate.validator.constraints.br.CNPJ.message                 = מספר הרישום של משלם המסים הברזילאי לא חוקי (CNPJ)
+org.hibernate.validator.constraints.br.CPF.message                  = מספר הרישום של משלם המסים הברזילאי לא חוקי (CPF)
+org.hibernate.validator.constraints.br.TituloEleitoral.message      = מספר תעודת זהות מצביע ברזילאי לא חוקי
+
+org.hibernate.validator.constraints.pl.REGON.message                = מספר זיהוי של נישום פולני לא חוקי (REGON)
+org.hibernate.validator.constraints.pl.NIP.message                  = מספר זיהוי מע"מ לא חוקי (NIP)
+org.hibernate.validator.constraints.pl.PESEL.message                = מספר זיהוי לאומי פולני לא חוקי (PESEL)
+
+org.hibernate.validator.constraints.time.DurationMax.message        = חייב להיות קצר מ${inclusive == true ? ' or equal to' : ''}${days == 0 ? '' : days == 1 ? ' 1 day' : ' ' += days += ' days'}${hours == 0 ? '' : hours == 1 ? ' 1 hour' : ' ' += hours += ' hours'}${minutes == 0 ? '' : minutes == 1 ? ' 1 minute' : ' ' += minutes += ' minutes'}${seconds == 0 ? '' : seconds == 1 ? ' 1 second' : ' ' += seconds += ' seconds'}${millis == 0 ? '' : millis == 1 ? ' 1 milli' : ' ' += millis += ' millis'}${nanos == 0 ? '' : nanos == 1 ? ' 1 nano' : ' ' += nanos += ' nanos'}
+org.hibernate.validator.constraints.time.DurationMin.message        = חייב להיות ארוך מ${inclusive == true ? ' or equal to' : ''}${days == 0 ? '' : days == 1 ? ' 1 day' : ' ' += days += ' days'}${hours == 0 ? '' : hours == 1 ? ' 1 hour' : ' ' += hours += ' hours'}${minutes == 0 ? '' : minutes == 1 ? ' 1 minute' : ' ' += minutes += ' minutes'}${seconds == 0 ? '' : seconds == 1 ? ' 1 second' : ' ' += seconds += ' seconds'}${millis == 0 ? '' : millis == 1 ? ' 1 milli' : ' ' += millis += ' millis'}${nanos == 0 ? '' : nanos == 1 ? ' 1 nano' : ' ' += nanos += ' nanos'}
